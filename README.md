@@ -1,4 +1,4 @@
-# Jovens-Tegranos-Exercicio01
+# Jovens Tegranos Exercicio01
 
 ### Jovens Tegranos Exercicio 01
 
@@ -12,11 +12,7 @@
  * 👉 Pré-requisitos
  * 👉 Tecnologias utilizadas
  * 👉 Autor
- * 👉 Licença
- * [Como](#como-usar)
- * [Como](#como-usar)
- * [Como](#como-usar)
- 
+ * 👉 Licença 
  ____________________________________________________________
 # ✅ Banner 👌
 
@@ -49,7 +45,7 @@ Funcionalidades da aplicação:
 GitHub
 AlineAlmeida85
 
-Link: 
+Link: https://alinealmeida85.github.io/Jovens-Tegranos-Exercicio01/
 
 <h1 align="center">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="banner.png" style/>
@@ -63,9 +59,9 @@ Nenhum, basta clicar no link acima
 
 As seguintes tecnologias foram usadas na construção do projeto:
 
-- [HTML](https://expo.io/)
-- [CSS](https://nodejs.org/en/)
-- [JavaScript](https://pt-br.reactjs.org/)
+- HTML
+- CSS
+- JavaScript
 
 # ✅ Autor 👌
 

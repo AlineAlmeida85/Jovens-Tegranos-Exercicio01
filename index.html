@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>EXERCÍCIO 01</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="page-header">Calculo de Terrenos - EXERCÍCIO 01</h1>
+            <p>Fazer um programa para ler as medidas da largura e comprimento de um terreno retangular com uma casa decimal, bem como o valor 
+                do metro quadrado do terreno com duas casas decimais. Em seguida, o programa deve mostrar o valor da área do terreno, bem como 
+                o valor do preço do terreno, ambos com duas casas decimais, conforme exemplo.</p>           
+        </div>
+    </div>
+    <div class="container formulario">
+        <form>
+            <div class="form-group">
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon" id="sizing-addon1">Largura do Terreno:</span>
+                    <input id="inputLargura" type="number" class="form-control" aria-describedby="sizing-addon1" placeholder="Digite o valor da largura do terreno">
+                </div>
+                <small class="form-text text-muted">Digite somente numeros</small>
+            </div>
+            <div class="form-group">
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon" id="sizing-addon1">Comprimento do Terreno:</span>
+                    <input id="inputComprimento" type="number" class="form-control" aria-describedby="sizing-addon1" placeholder="Digite o valor do comprimento do terreno">
+                </div>
+                <small class="form-text text-muted">Digite somente numeros</small>
+            </div>
+            <div class="form-group">
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon" id="sizing-addon1">Valor do Metro Quadrado:</span>
+                    <input id="inputValorM2" type="number" class="form-control" aria-describedby="sizing-addon1" placeholder="Digite o valor do m2 do terreno">
+                </div>
+                <small class="form-text text-muted">Digite somente numeros</small>
+            </div>
+            <button type="button" class="btn btn-info" onclick="calcular()">Calcular</button>
+        </form>
+    </div>
+    <br>
+    <div class="container formulario" id="form2">
+        <form>
+            <h3>Valores Recebidos</h3>
+            <div class="form-group">
+                <div class="input-group input-group-md">
+                    <span class="input-group-addon" id="sizing-addon1">A largura é:</span>                
+                    <p class="form-control" id="valorLargura"></p>
+                    <span class="input-group-addon" id="sizing-addon1">metros.</span>
+                </div>            
+            </div>
+            <div class="form-group">
+                <div class="input-group input-group-md">
+                    <span class="input-group-addon" id="sizing-addon1">O comprimento é:</span>                
+                    <p class="form-control" id="valorComprimento"></p>
+                    <span class="input-group-addon" id="sizing-addon1">metros.</span>
+                </div>            
+            </div>
+            <div class="form-group">
+                <div class="input-group input-group-md">
+                    <span class="input-group-addon" id="sizing-addon1">O valor do metro quadrado do terreno é:</span>                
+                    <p class="form-control" id="valorMetro"></p>
+                    <span class="input-group-addon" id="sizing-addon1">reais.</span>                    
+                </div>            
+            </div>
+            <h3>Resultado</h3>
+            <div class="form-group">
+                <div class="input-group input-group-md">
+                    <span class="input-group-addon" id="sizing-addon1">O tamanho do terreno é de:</span>                
+                    <p class="form-control" id="areaTerreno"></p>
+                    <span class="input-group-addon" id="sizing-addon1">metros quadrados.</span>
+                </div>            
+            </div>
+        <div class="form-group">
+            <div class="input-group input-group-md">
+                <span class="input-group-addon" id="sizing-addon1">O preço do terreno é de:</span>                
+                <p class="form-control" id="precoTerreno"></p>                
+            </div>            
+        </div> 
+    </form>      
+    </div>
+    <div class="jumbotron">
+        <div class="container">
+            <p>Espero que  tenha gostado! Feito por Aline Almeida 💜</p>             
+        </div>
+    </div>
+    <script src="./script.js"></script>    
+    
+</body>
+</html>
